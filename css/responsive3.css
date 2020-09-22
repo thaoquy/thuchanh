@@ -1,0 +1,253 @@
+/* Dành cho máy tính bảng chiều dọc */
+@media all and (min-width: 600px) and (max-width: 1919px) {
+    header {
+        max-width: 570px;
+        height: 313px;
+    }
+
+    .word-left {
+        margin-left: 0px;
+    }
+
+    #mua {
+        font-size: 21px;
+    }
+    #shine {
+        width: 158px;
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .word-left button {
+        max-width: 79px;
+    }
+
+    .social {
+        line-height: 23px;
+    }
+    .intro {
+        margin: 0 auto;
+        max-width: 570px;
+    }
+
+    .phase {
+        width: 570px;
+        font-size: 23px;
+    }
+
+    .feature-items1 {
+        margin: 0 auto;
+        max-width: 570px;
+        position: relative;
+    }
+
+    .feature-items2 {
+        margin: 0 auto;
+        margin-top: 50px;
+        height: 591px;
+        max-width: 570px;
+        position: relative;
+    }
+
+    
+    .item1 .hang-hoa, .item1{
+        width: 175px;
+    }
+
+    .item3 .hang-hoa, .item3{
+        width: 280px;
+    }
+
+    .item4 .hang-hoa, .item4{
+        width: 280px;
+    }
+
+    .item5 .hang-hoa, .item5{
+        width: 175px;
+    }
+
+    .item2 .hang-hoa, .item2{
+        width: 372px;
+    }
+
+    .item6 .hang-hoa, .item6{
+        width: 372px;
+    }
+    .item3 {
+        position: absolute;
+        top: 252px;
+    }
+
+    .item2 {
+        position: absolute;
+        left: 198px;
+        top: 0px;
+    }
+    .item4{
+        position: absolute;
+        top: -34px;
+        left: 290px;
+    }
+
+    .item5{
+        position: absolute;
+        top: 358px;
+        left: 0px;
+    }
+
+    .item6{
+        position: absolute;
+        top: 358px;
+        left: 198px
+    }
+
+    
+    .nhanla {
+        top: 172px;
+        font-size: 11px;
+    }
+
+    .gia {
+        top: 192px;
+        font-size: 14px;
+    }
+
+    #sale {
+        left: 264px;
+    }
+
+    #bay {
+        left: 250px;
+        top: 72px;
+    }
+
+    #phantram {
+        left: 280px;
+        top: 79px;
+        font-size: 40px;
+    }
+
+    #shop {
+        left: 266px;
+        top: 166px;
+    }
+
+    #select {
+        left: 243px;
+        top: 135px;
+    }
+
+    .phase {
+        margin-bottom: 18px;
+    }
+
+    #nhan {
+        font-size: 45px;
+        top: 272px;
+    }
+
+    #collection {
+        top: 230px;
+    }
+
+    .vong {
+        top: 178px;
+        font-size: 14px;
+        width: 140px;
+    }
+
+    .headding {
+        max-width: 570px;
+    }
+
+    .product {
+        margin: 0 auto;
+        width: 570px;
+        position: relative;
+    }
+    .product .hang-hoa{
+        width: 280px;
+    }
+
+    .giatri {
+        width: 280px;
+        font-size: 19px;
+    }
+
+    .tensp {
+        width: 280px;
+        font-size: 18px;
+    }
+
+    .add {
+        width: 161px;
+        top: 291px;
+    }
+
+    .tim {
+        left: 161px;
+        top: 291px;
+    }
+
+    .line2 {
+        width: 570px;
+    }
+
+    .brands {
+        max-width: 437px;
+    }
+
+    footer {
+        width: 570px;
+    }
+    .bar{
+        display: flex;
+    }
+    .footer{
+        height: 150px;
+    }
+
+    .linelast {
+        width: 570px;
+    }
+
+    .address {
+        font-size: 13px;
+    }
+    
+    .bieudo {
+        left: 201px;
+        top: 291px;
+    }
+    .timkiem {
+        left: 241px;
+        top: 291px;
+    }
+    .mat-hang2{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .mat-hang4{
+        position: absolute;
+        top: 406px;
+        right: 0px;
+    }
+    .mat-hang6{
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
+    .mat-hang8{
+        position: absolute;
+        top: 406px;
+        right: 0px;
+    }
+
+    .blog .blogs {
+        max-width: 570px;
+    }
+
+
+
+}

@@ -1,0 +1,194 @@
+/* Dành cho điện thoại, hiển thị chiều ngang */
+@media all and (min-width: 480px) and (max-width: 1919px){
+    header{
+        max-width: 450px;
+        height: 250px;
+    }
+
+    .chu {
+        max-width: 400px;
+        margin-top: 44px;
+    }
+
+    .feature-items1{
+        margin: 0 auto;
+        max-width: 450px;
+    }
+    .nhanla {
+        top: 457px;
+        font-size: 29px;
+    }
+
+    .gia {
+        top: 521px;
+        font-size: 18px;
+    }
+
+    #sale {
+        left: 325px;
+        top: 59px;
+        font-size: 11px;
+    }
+
+    .intro {
+        margin: 0 auto;
+        max-width: 450px;
+    }
+
+    .hang-hoa {
+        width: 450px;
+    }
+
+    #bay {
+        left: 311px;
+        top: 95px;
+        font-size: 66px;
+    }
+
+    #phantram {
+        left: 343px;
+        top: 90px;
+        font-size: 48px;
+    }
+    #select {
+        left: 304px;
+        top: 163px;
+        font-size: 11px;
+    }
+
+    #shop {
+        left: 330px;
+        top: 196px;
+        font-size: 8px;
+    }
+
+    #collection {
+        top: 386px;
+        font-size: 20px;
+    }
+
+    #nhan {
+        font-size: 64px;
+        top: 443px;
+    }
+
+    .feature-items2 {
+        margin-top: 50px;
+        margin: 0 auto;
+        max-width: 450PX;
+    }
+
+    .vong {
+        top: 465px;
+        font-size: 29px;
+        width: 269px;
+    }
+
+    .princess {
+
+        font-size: 27px;
+        top: 114px;
+        left: 35px;
+    }
+
+    .plate {
+        top: 173px;
+        left: 35px;
+    }
+
+    .headding {
+        max-width: 450px;
+    }
+
+    .feature {
+        font-size: 23px;
+    }
+
+    .view {
+        font-size: 8px;
+    }
+
+    .product {
+        margin: 0 auto;
+        width: 450px;
+    }
+
+    .tensp {
+        font-size: 23px;
+    }
+
+    .giatri {
+        font-size: 23px;
+    }
+
+    .add {
+        width: 330px;
+        top: 492px;
+    }
+    .tim {
+        left: 330px;
+        top: 492px;
+    }
+
+    .bieudo {
+        left: 370px;
+        top: 492px;
+    }
+
+    .timkiem {
+        left: 410px;
+        top: 492px;
+    }
+
+    .blog {
+        max-width: 450px;
+    }
+
+    .blogs {
+        max-width: 450px;
+    }
+
+    .time {
+        font-size: 20px;
+    }
+
+    .title{
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .line {
+        width: 450px;
+    }
+
+    .eye {
+        margin-left: 80px;
+    }
+
+    .share {
+        margin-left: 80px;
+    }
+
+    .line2 {
+        width: 450px;
+    }
+
+    footer {
+        width: 450px;
+    }
+
+    footer img {
+        width: 112px;
+    }
+
+    footer {
+        width: 450px;
+    }
+
+    .bar {
+        margin-top: 16px;
+    }
+    .linelast {
+        width: 450px;
+    }
+}

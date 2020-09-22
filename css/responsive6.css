@@ -1,0 +1,63 @@
+/* Dành cho máy tính bảng, loại to chiều ngang */
+@media all and (min-width: 1024px) and (max-width: 1919px){
+    header {
+        max-width: 1024px;
+        height: 549px;
+    }
+
+    .menu {
+        margin-right: 0px;
+    }
+
+    .chu {
+        max-width: 677px;
+    }
+
+    #mua {
+        font-size: 25px;
+    }
+
+    #shine {
+        width: 334px;
+        font-size: 39px;
+        margin-top: 52px;
+        line-height: 60px;
+    }
+
+    .social {
+        line-height: 38px;
+        margin-top: 50px;
+        letter-spacing: 5px;
+
+    }
+
+    .intro {
+        max-width: 1024px;
+    }
+
+    .phase {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .feature-items1 {
+        max-width: 753px;
+        margin: 0 auto;
+    }
+
+    .feature-items2 {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .product {
+        margin: 0 auto;
+    }
+
+    .blog {
+        max-width: 1024px;
+    }
+    footer {
+        width: 1024px;
+    }
+}

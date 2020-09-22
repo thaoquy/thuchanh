@@ -1,0 +1,371 @@
+/* Dành cho điện thoại, hiển thị chiều dọc*/
+@media all and (min-width: 320px) and (max-width: 1919px) {
+    header{
+        max-width: 290px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-size: contain;
+    }
+    .header-content{
+        height: 62px;
+        align-items: flex-end;
+    }
+    .chu{
+        max-width: 320px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .social{
+        margin-top: 40px;
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    #mua{
+        width: 140px;
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    .word-left{
+        margin-left: 30px;
+        padding-top: 0px;
+    }
+    #shine {
+        width: 140px;
+        font-size: 11px;
+        margin-bottom: 0px;
+        letter-spacing: 0px;
+        line-height: 30px;
+        margin-top: 0px;
+    }
+    .word-left button {
+        font-size: 6px;
+        margin-left: 0px;
+        line-height: 11px;
+        max-width: 50px;
+    }
+
+    .intro{
+        margin: 0 auto;
+        max-width: 290px;
+    }
+
+    .intro5{
+        display: none;
+    }
+    .intro1{
+        display: none;
+    }
+    .service{
+        font-size: 8px;
+        line-height: 16px;
+        letter-spacing: 0px;
+    }
+    .intro2 .service {
+        margin-top: 0px;
+    }
+
+    .intro3 .service {
+        margin-top: 0px;
+    }
+
+    .intro4 .service {
+        margin-top: 0px;
+    }
+    .intro2{
+        height: 30px;
+    }
+    .intro3{
+        height: 30px;
+    }
+    .intro4{
+        height: 30px;
+    }
+
+    .feature-service {
+        font-size: 8px;
+    }
+
+    .phase {
+        width: 290px;
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 0px; 
+        margin-top: 20px; 
+        margin-bottom: 0px;
+    }
+    .logo img{
+        width:130px;
+        height: auto;
+    }
+    .hang-hoa {
+        width:290px;
+        height: auto;
+    }
+
+    .feature-items1{
+        margin: 0 auto;
+        display: block ;
+        max-width: 290px;
+    }
+    .feature-items2{
+        margin: 0 auto;
+        display: block ;
+        max-width: 290px;
+    }
+
+    .nhanla{
+        left: 50%;
+        transform: translateX(-50%);
+        top: 295px;
+        font-size: 19px;
+    }
+    .vong{
+        left: 50%;
+        transform: translateX(-50%);
+        top: 295px;
+        font-size: 19px;
+        width: 183px;
+    }
+    .gia{
+        left: 50%;
+        transform: translateX(-50%);
+        top: 331px;
+        font-size: 18px;
+    }
+    #nhan{
+        font-size: 42px;
+        top: 264px;
+    }
+
+    #collection{
+        top: 235px;
+        font-size: 12px;
+    }
+
+    #sale {
+        left: 203px;
+        top: 38px;
+        font-size: 8px;
+        letter-spacing: 2px;
+        line-height: 17px;}
+    #bay{
+        left: 204px;
+        top: 67px;
+
+        font-size: 34px;
+    }
+    #phantram{
+        left: 220px;
+        top: 61px;
+
+        font-size: 30px;
+    }
+    #select{
+
+    left: 194px;
+    top: 105px;
+    line-height: 10px;
+    font-size: 8px;
+    }
+
+    #shop {
+        left: 207px;
+        top: 125px;
+        font-size: 6px;
+        letter-spacing: 1.5px;
+        font-weight: 100;
+    }
+
+    .princess{
+
+        width: 172px;
+        line-height: 23px;
+        font-size: 23px;
+        top: 33px;
+        left: 21px;
+    }
+    .plate {
+        position: absolute;
+        top: 90px;
+        left: 21px;
+        font-size: 6px;
+        word-spacing: 0px;
+        line-height: 15px;
+    }
+
+    .view {
+        margin-top: -2px;
+        font-size: 6px;
+    }
+
+    .feature {
+        font-size: 17px;
+    }
+
+    .headding {
+        max-width: 290px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .product {
+        margin: 0 auto;
+        display: block;
+        width: 290px;
+    }
+    .timkiem {
+        top: 302px;
+        left: 250px;
+    }
+    .bieudo {
+        top: 302px;
+        left: 208px;
+    }
+
+    .tim {
+        top: 302px;
+        left: 166px;
+    }
+
+    .add {
+        top: 302px;
+        width: 165px;
+    }
+
+    .blog{
+        max-width: 290px;
+        margin-top: 31px;
+    }
+
+    .update {
+        font-size: 21px;
+        transform: translate(-1px, -14px);
+    }
+
+    .blogs {
+        max-width: 290px;
+        display: block;
+    }
+
+    .title {
+        margin-left: 0px;
+        height: 56px;
+    }
+
+    .time {
+        margin-left: 10px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .line {
+        margin-top: 10px;
+        width: 290px;
+    }
+
+    .brands {
+        max-width: 290px;
+        display: block;
+        position: relative;
+        height: 120px;
+    }
+    .brands img{
+        width: 60px;
+        height: auto;
+    }
+    .line2 {
+        width: 290px;
+        margin-left: 15px;
+    }
+
+    .buttonblog {
+        margin-top: 27px;
+        margin-bottom: 36px;
+    }
+
+    .brand1 {
+        position: absolute;
+        top: 23px;
+        left: 10px;
+    }
+
+    .brand2 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 30px;
+    }
+
+    .brand3 {
+        position: absolute;
+        top: 25px;
+        right: 10px;
+    }
+
+    .brand4 {
+        position: absolute;
+        top: 60px;
+        left: 10px;
+    }
+
+    .brand5 {
+        position: absolute;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 60px;
+    }
+
+    .brand6 {
+        position: absolute;
+        top: 80px;
+        right: 10px;
+    }
+
+    footer {
+        width: 290px;
+        padding: 15px;
+    }
+    .footer{
+        display: block;
+        position: relative;
+    }
+
+    .subcribe{
+        position: absolute;
+        top: 11px;
+        right: 0px;
+    }
+
+    .subcribe button span {
+        font-size: 9px;
+    }
+
+    footer img{
+    width: 80px;
+    height: auto;
+    }
+
+    .subcribe button {
+        margin-top: 5px;
+        width: 100px;
+        height: 33px;
+    }
+
+    .bar{
+        margin-top: 0px;
+        display: block;
+    }
+    .linelast {
+        width: 290px;
+    }
+
+    .footer-content{
+        padding-top: 0px;
+    }
+}
+ 

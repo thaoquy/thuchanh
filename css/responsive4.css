@@ -1,0 +1,191 @@
+/* Dành cho máy tính bảng chiều ngang */
+@media all and (min-width: 800px) and (max-width: 1919px) {
+
+    header {
+        max-width: 770px;
+        height: 417px;
+    }
+
+    .chu {
+        max-width: 564px;
+        margin-top: 108px;
+    }
+
+    #shine {
+        width: 306px;
+        font-size: 34px;
+        margin-top: 20px;
+        letter-spacing: 11px;
+        line-height: 48px;
+    }
+
+    .intro {
+        margin: 0 auto;
+        max-width: 770px;
+    }
+
+    .item3 .hang-hoa, .item3 {
+        width: 175px;
+    }
+
+    .item4 .hang-hoa, .item4 {
+        width: 175px;
+        
+    }
+    .item4{
+        left: 1px;
+    }
+    .feature-items1 {
+        margin: 0 auto;
+        max-width: 770px;
+    }
+
+    .item3 {
+        top: 0;
+        right: 0px;
+    }
+    #collection {
+        top: 148px;
+        left: 35px;
+        font-size: 8px;
+    }
+
+    #nhan {
+        font-size: 27px;
+        top: 172px;
+        word-spacing: 2px;
+        left: 35px;
+    }
+
+    .item5 {
+        top: -33px;
+        left: 200px;
+    }
+
+    .item6 {
+        top: -33px;
+        left: 400px;
+    }
+
+    .feature-items2 {
+        margin: 0 auto;
+        margin-top: 50px;
+        max-width: 770px;
+        height: 200px;
+    }
+
+    .headding {
+        max-width: 700px;
+    }
+
+    .product{
+        width: 770px;
+        margin: 0 auto;
+    }
+
+    .product .hang-hoa {
+        width: 380px;
+    }
+
+    .giatri {
+        width: 380px;
+    }
+
+    .tensp {
+        width: 380px;
+    }
+
+    .mat-hang4 {
+        top: 524px;
+    }
+
+    .timkiem {
+        left: 338px;
+        top: 407px;
+    }
+
+    .bieudo {
+        left: 297px;
+        top: 407px;
+    }
+    
+    .tim {
+        left: 256px;
+        top: 407px;
+    }
+
+    .add {
+        width: 256px;
+        top: 407px;
+    }
+
+    .mat-hang8 {
+        top: 524px;
+    }
+
+    .blog {
+        max-width: 770px;
+    }
+
+    .update {
+        font-size: 32px;
+        transform: translate(-1px, -21px);
+    }
+
+    .blog .blogs {
+        max-width: 770px;
+    }
+
+    .hang-hoa {
+        width: 770px;
+    }
+
+    .time {
+        margin-left: 50px;
+    }
+
+    .title {
+        width: 671px;
+        font-size: 28px;
+    }
+
+    .line {
+        width: 770px;
+    }
+
+    .views, .like, .eye, .share {
+        font-size: 22px;
+    }
+
+    .eye {
+        margin-left: 199px;
+    }
+
+    .share {
+        margin-left: 133px;
+    }
+
+    .line2 {
+        width: 770px;
+    }
+
+    .brands {
+        max-width: 540px;
+    }
+
+    footer {
+        width: 770px;
+    }
+
+    .bar {
+        margin-top: -43px;
+        max-width: 500px;
+    }
+
+    .linelast {
+        width: 770px;
+    }
+
+
+
+}
