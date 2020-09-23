@@ -250,6 +250,9 @@
         max-width: 290px;
         display: block;
     }
+    .blog1 {
+        height: 330px;
+    }
 
     .title {
         margin-left: 0px;
@@ -269,8 +272,6 @@
 
     .brands {
         max-width: 290px;
-        display: block;
-        position: relative;
         height: 120px;
     }
     .brands img{
@@ -304,6 +305,7 @@
         position: absolute;
         top: 25px;
         right: 10px;
+        left: 210px;
     }
 
     .brand4 {
@@ -314,7 +316,6 @@
 
     .brand5 {
         position: absolute;
-        position: absolute;
         left: 50%;
         transform: translateX(-50%);
         top: 60px;
@@ -324,6 +325,7 @@
         position: absolute;
         top: 80px;
         right: 10px;
+        left: 212px;
     }
 
     footer {
@@ -352,13 +354,14 @@
 
     .subcribe button {
         margin-top: 5px;
-        width: 100px;
+        width: 106px;
         height: 33px;
     }
 
     .bar{
         margin-top: 0px;
         display: block;
+        margin-left: 0px;
     }
     .linelast {
         width: 290px;

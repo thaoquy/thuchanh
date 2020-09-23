@@ -81,7 +81,7 @@
     .vong {
         top: 465px;
         font-size: 29px;
-        width: 269px;
+        width: 276px;
     }
 
     .princess {
@@ -142,6 +142,10 @@
 
     .blog {
         max-width: 450px;
+    }
+
+    .blog1 {
+        height: 430px;
     }
 
     .blogs {

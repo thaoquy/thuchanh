@@ -132,6 +132,10 @@
         transform: translate(-1px, -21px);
     }
 
+    .blog1 {
+        height: 608px;
+    }
+
     .blog .blogs {
         max-width: 770px;
     }

@@ -175,11 +175,16 @@
     }
 
     .bar {
+        display: flex;
         margin-top: -43px;
         max-width: 500px;
+        margin-left: 120px;
     }
 
     .linelast {
         width: 753px;
+    }
+    .blog1 {
+        height: 608px;
     }
 }
