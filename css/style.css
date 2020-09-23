@@ -16,18 +16,17 @@ header{
 }
 
 .icon1{
-    font-size: 30px;
+    font-size: 32px;
     line-height: 21px;
     color: #ffffff;
     font-family: 'Ionicons';
 }
 
 .icon2{
-    font-size: 18px;
-    letter-spacing: 3px;
-    line-height: 24px;
-    color: #d6ba8d;
-    font-family: "Ionicons";
+    font-size: 28px;
+    margin-top: 2px;
+    color: #ffffff;
+    font-family: 'Ionicons';
 }
 
 #gio-hang{
@@ -54,7 +53,7 @@ header{
 }
 
 .logo{
-    margin-top: -31px;
+    margin-top: -27px;
 }
 
 
@@ -74,7 +73,7 @@ body{
 
 .menu{
     margin-right: 6px;
-    margin-top: -34px;
+    margin-top: -29px;
     display: flex;
     max-width: 113px;
     width: 100%;
@@ -92,7 +91,7 @@ body{
     justify-content: space-between;
     margin: 0 auto;
     padding-bottom: 290px;
-    margin-top: 206px;
+    margin-top: 207px;
 
 }
 
@@ -103,11 +102,11 @@ body{
 .word-left button{
     font-size: 16px;
     letter-spacing: 2.5px;
-    line-height: 42px;
+    line-height: 38px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Fira Sans";
-    max-width: 197px;
+    max-width: 196px;
     width: 100%;
     background-color: #333333;
     margin-left: -1px;
@@ -130,7 +129,7 @@ body{
     font-weight: 530;
     font-style: oblique;
     font-family: "Cormorant Garamond";
-    margin-top: 38px;
+    margin-top: 37px;
     margin-bottom: 40px;
 }
 
@@ -142,8 +141,8 @@ body{
     font-weight: 500;
     font-family: "Cormorant Garamond";
     text-align: right;
-    margin-top: 78px;
-    margin-right: 2px;
+    margin-top: 77px;
+    margin-right: 1px;
 }
 
 .social p:hover{
@@ -201,10 +200,10 @@ body{
 
 
 .service{
-    font-size: 16px;
-    letter-spacing: 3px;
+    font-size: 17.5px;
+    letter-spacing: 2px;
     line-height: 28px;
-    color: #333333;
+    color: black;
     font-weight: 700;
     font-family: "Cormorant Garamond";
     text-align: center;
@@ -230,7 +229,7 @@ body{
 }
 
 .intro4 .feature-service {
-    margin-left: -8px;
+    margin-left: -11px;
 }
 
 .intro3 .feature-service{
@@ -250,8 +249,8 @@ body{
     padding-left: -28px;
     margin: 0 auto;
     padding-top: 9px;
-    margin-top: 101px;
-    margin-bottom: 124px;
+    margin-top: 102px;
+    margin-bottom: 122px;
     font-size: 33px;
     line-height: 49px;
     color: #333333;
@@ -312,7 +311,7 @@ body{
 .nhanla{
     position: absolute;
     left: 109px;
-    top: 404px;
+    top: 405px;
     font-size: 25px;
     letter-spacing: 1px;
     line-height: 36px;
@@ -324,8 +323,8 @@ body{
 
 .gia{
     position: absolute;
-    left: 156px;
-    top: 452px;
+    left: 157px;
+    top: 453px;
     font-size: 23px;
     letter-spacing: 1px;
     line-height: 36px;
@@ -335,8 +334,8 @@ body{
 }
 
 #sale{
-    left: 601px;
-    top: 109px;
+    left: 600px;
+    top: 110px;
     position: absolute;
     font-size: 17px;
     letter-spacing: 4px;
@@ -349,7 +348,7 @@ body{
 
 
 #bay{
-    left: 584px;
+    left: 582px;
     top: 158px;
     position: absolute;
     font-size: 98px;
@@ -359,7 +358,7 @@ body{
 }
 
 #phantram{
-    left: 627px;
+    left: 625px;
     top: 157px;
     position: absolute;
     font-size: 100px;
@@ -387,7 +386,7 @@ body{
     top: 385px;
     position: absolute;
     font-size: 12px;
-    letter-spacing: 3.7px;
+    letter-spacing: 3.9px;
     color: #696969;
     font-weight: 600;
     font-family: "Fira Sans";
@@ -402,19 +401,19 @@ body{
     font-weight: 700;
     font-family: "Cormorant Garamond";
     left: 48px;
-    top: 372px;
+    top: 373px;
 }
 
 #collection{
     position: absolute;
     font-size: 15px;
-    letter-spacing: 2.1px;
+    letter-spacing: 2.15px;
     line-height: 24px;
     color: #333333;
     font-weight: 400;
     font-family: "Fira Sans";
     left: 50px;
-    top: 335px;
+    top: 334px;
 }
 
 .rose{
@@ -438,13 +437,13 @@ body{
     font-weight: 6500;
     font-weight: 700;
     font-family: "Cormorant Garamond";
-    top: 139px;
+    top: 137px;
     left: 53px;
 }
 
 .plate{
     position: absolute;
-    top: 269px;
+    top: 270px;
     left: 56px;
     font-size: 14px;
     word-spacing: -2px;
@@ -464,8 +463,8 @@ body{
 }
 
 .view{
-    margin-top: 12px;
-    margin-right: 13px;
+    margin-top: 2px;
+    margin-right: 2px;
     font-size: 14px;
     letter-spacing: 2.1px;
     line-height: 31px;
@@ -478,7 +477,7 @@ body{
     max-width: 1170px;
     width: 100%;
     margin: 0 auto;
-    margin-top: 138px;
+    margin-top: 136px;
     margin-bottom: 65px;
     display: flex;
     justify-content: space-between;
@@ -490,6 +489,7 @@ body{
     font-family: "Fira Sans";
     text-align: center;
     margin-top: 16px;
+    margin-left: 1px;
 }
 
 .giatri{
@@ -499,7 +499,7 @@ body{
     color: #d6ba8d;
     font-family: "Fira Sans";
     text-align: center;
-    margin-top: 7px;
+    margin-top: 2px;
     padding-left: 5px;
 }
 
@@ -512,7 +512,7 @@ body{
 }
 
 .add{
-    padding-top: 6px;
+    padding-top: 4px;
     padding-left: 12px;
     width: 147px;
     height: 40px;
@@ -540,7 +540,7 @@ body{
 }
 
 .bieudo{
-    padding-top: 10px;
+    padding-top: 8px;
     left: 188px;
     top: 280px;
     position: absolute;
@@ -551,7 +551,7 @@ body{
 }
 
 .timkiem{
-    padding-top: 6px;
+    padding-top: 4px;
     padding-left: 8px;
     top: 280px;
     left: 228px;
@@ -601,7 +601,7 @@ body{
 
 .time{
     margin-left: 33px;
-    margin-top: 2px;
+    margin-top: -1px;
     font-size: 14.5px;
     letter-spacing: 1.2px;
     line-height: 67px;
@@ -611,11 +611,11 @@ body{
 
 .title{
     margin-left: 33px;
-    margin-top: -1px;
+    margin-top: -3px;
     width: 298px;
-    height: 111px;
+    height: 114px;
     font-size: 23.5px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.35px;
     line-height: 32px;
     color: #333333;
     font-weight: 700;
@@ -637,7 +637,7 @@ body{
     font-family: "Ionicons";
     position: relative;
     left: -6px;
-    top: 3px;
+    top: 4px;
     
 }
 
@@ -715,8 +715,8 @@ body{
 }
 .brand1{
     position: absolute;
-    left: 8px;
-    top: 64px;
+    left: 7px;
+    top: 65px;
 }
 .brand2{
     position: absolute;
@@ -738,12 +738,12 @@ body{
 .brand5{
     position: absolute;
     left: 814px;
-    top: 62px;
+    top: 63px;
 }
 .brand6{
     position: absolute;
-    left: 990px;
-    top: 86px;
+    left: 989px;
+    top: 87px;
 }
 
 footer{
@@ -788,7 +788,7 @@ footer{
     height: 39px;
     background-color: #333333;
     border: 2px solid #696969;
-    margin-top: 142px;
+    margin-top: 141px;
 }
 
 
