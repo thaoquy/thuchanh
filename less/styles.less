@@ -1,3 +1,10 @@
+@mau_trang: #ffffff;
+@mau_den: #333333;
+@border: 1px solid #efefef;
+@chu_mem: "Cormorant Garamond";
+@chu_cung: "Fira Sans";
+
+
 p {
     display: block;
     margin-block-start: 0;
@@ -21,20 +28,20 @@ header {
 .icon1 {
     font-size: 32px;
     line-height: 21px;
-    color: #ffffff;
+    color: @mau_trang;
 }
 
 .icon2 {
     font-size: 28px;
     margin-top: 2px;
-    color: #ffffff;
+    color:@mau_trang;
 }
 
 #gio-hang {
-    background-color: #fff;
+    background-color: @mau_trang;
     font-size: 12px;
     line-height: 21px;
-    color: #333333;
+    color: @mau_den;
     font-weight: 700;
     font-family: "Lato";
     border-radius: 50%;
@@ -46,11 +53,6 @@ header {
     top: -6px;
     margin-top: 5px;
     margin-left: 3px;
-}
-
-.menu div {
-    margin-left: 14px;
-    position: relative;
 }
 
 .logo {
@@ -79,6 +81,10 @@ body {
     max-width: 113px;
     width: 100%;
     justify-content: space-between;
+    div {
+        margin-left: 14px;
+        position: relative;
+    }
     
 }
 
@@ -95,19 +101,19 @@ body {
 
 .word-left {
     margin-left: 16.1%;
-}
-
-.word-left button { 
-    font-size: 16px;
-    letter-spacing: 2.5px;
-    line-height: 38px;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Fira Sans";
-    max-width: 196px;
-    width: 100%;
-    background-color: #333333;
-    margin-left: -1px;
+    button { 
+        font-size: 16px;
+        letter-spacing: 2.5px;
+        line-height: 38px;
+        color: @mau_trang;
+        font-weight: 700;
+        font-family: @chu_cung;
+        max-width: 196px;
+        width: 100%;
+        background-color: @mau_den;
+        margin-left: -1px;
+    }
+    
 }
 
 #mua {
@@ -115,7 +121,7 @@ body {
     letter-spacing: 12px;
     line-height: 23px;
     color: #696969;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
 }
 
 #shine {
@@ -123,10 +129,10 @@ body {
     font-size: 96px;
     letter-spacing: 32px;
     line-height: 100px;
-    color: #333333;
+    color: @mau_den;
     font-weight: 530;
     font-style: oblique;
-    font-family: "Cormorant Garamond";
+    font-family: @chu_mem;
     margin-top: 37px;
     margin-bottom: 40px;
 }
@@ -137,18 +143,16 @@ body {
     line-height: 40px;
     color: wheat;
     font-weight: 500;
-    font-family: "Cormorant Garamond";
+    font-family: @chu_mem;
     text-align: right;
     margin-top: 77px;
     margin-right: 1px;
-}
-
-.social a {
-    color: wheat;
-}
-
-.social a:hover {
-    color: #ffffff;
+    a {
+        color: wheat;
+        &:hover {
+            color: @mau_trang;
+        }
+    } 
 }
 
 .intro {
@@ -157,41 +161,56 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    border-bottom: 1px solid #efefef;
+    border-bottom: @border;
 }
-
+.introx (@height: 0px, @max_width: 0px, @width: 0px) {
+    height: @height;
+    max-width: @max_width;
+    width: @width;
+}
 .intro1 {
-    height: 82px ;
-    max-width: 375px ;
-    width: 100%;
+    .introx(82px, 375px, 100%);
 }
 
 .intro2 {
-    border-left: 1px solid #efefef;
-    height: 82px ;
-    max-width: 382px ;
-    width: 100%;
-    border-right: 1px solid #efefef;
+    border-left: @border;
+    border-right: @border;
+    .introx(82px, 382px, 100%);
+    .service {
+        margin-top: 21px;
+        margin-left: -11px;
+    }
+    .feature-service {
+        margin-left: -13px;
+    }
 }
 
 .intro3 {
-    height: 82px ;
-    max-width: 400px ;
-    width: 100%;
-    border-right: 1px solid #efefef;
+    border-right: @border;
+    .introx(82px, 400px, 100%);
+    .service {
+        margin-top: 21px;
+        margin-left: 7px;
+    }
+    .feature-service {
+        margin-left: 6px;
+    }
 }
 
 .intro4 {
-    height: 82px ;
-    max-width: 384px ;
-    width: 100%;
-    border-right: 1px solid #efefef;
+    border-right: @border;
+    .introx(82px, 384px, 100%);
+    .service {
+        margin-top: 21px;
+        margin-left: -9px;
+    }
+    .feature-service {
+        margin-left: -11px;
+    }
 }
 
 .intro5 {
-    height: 82px ;
-    max-width: 375px ;
-    width: 100%;
+    .introx(82px, 375px, 100%);
 }
 
 
@@ -199,54 +218,24 @@ body {
     letter-spacing: 2px;
     line-height: 28px;
     font-weight: 700;
-    font-family: "Cormorant Garamond";
+    font-family: @chu_mem;
     text-align: center;
-}
-
-.service a {
-    color: black;
-    font-size: 17.5px;
-}
-
-.service a:hover {
-    color: #92c5d9;
-    font-size: 20px;
-    transition: all ease-in-out 0.5s;
-
-}
-
-.intro2 .service {
-    margin-top: 21px;
-    margin-left: -11px;
-}
-
-.intro2 .feature-service {
-    margin-left: -13px;
-}
-
-.intro3 .service {
-    margin-top: 21px;
-    margin-left: 7px;
-}
-
-.intro4 .service {
-    margin-top: 21px;
-    margin-left: -9px;
-}
-
-.intro4 .feature-service {
-    margin-left: -11px;
-}
-
-.intro3 .feature-service {
-    margin-left: 6px;
+    a {
+        color: black;
+        font-size: 17.5px;
+        &:hover {
+            color: #92c5d9;
+            font-size: 20px;
+            transition: all ease-in-out 0.5s;
+        }
+    }
 }
 
 .feature-service {
     font-size: 14px;
     color: #ababab;
     font-weight: 400;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
     text-align: center;
     line-height: 23px;
 }
@@ -259,8 +248,8 @@ body {
     margin-bottom: 122px;
     font-size: 33px;
     line-height: 49px;
-    color: #333333;
-    font-family: "Cormorant Garamond";
+    color: @mau_den;
+    font-family: @chu_mem;
     text-align: center;
     font-weight: 700;
     letter-spacing: 0.36px;
@@ -275,22 +264,25 @@ body {
 }
 
 .feature-items2 {
-    max-width: 1720px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
+    .feature-items1();
     margin-top: 47px;
 }
 
-.item1, .item2, .item3, .item4, .item5, .item6 {
+.item1,
+.item2, 
+.item3, 
+.item4, 
+.item5, 
+.item6 {
     position: relative;
     overflow: hidden;
-}
+    &:hover {
+        .hang-hoa {
+            transition: all ease-in-out 0.5s;
+            transform: scale(1.5);
+        }
 
-.item1:hover .hang-hoa, .item2:hover .hang-hoa,.item3:hover .hang-hoa, .item4:hover .hang-hoa, .item5:hover .hang-hoa, .item6:hover .hang-hoa {
-    transition: all ease-in-out 0.5s;
-    transform: scale(1.5);
+    }
 }
 
 .vong {
@@ -299,9 +291,9 @@ body {
     font-size: 26px;
     top: 405px;
     letter-spacing: 0.2px;
-    color: #333333;
+    color: @mau_den;
     font-weight: 500;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
 }
 
 .nhanla {
@@ -311,9 +303,9 @@ body {
     font-size: 25px;
     letter-spacing: 1px;
     line-height: 36px;
-    color: #333333;
+    color: @mau_den;
     font-weight: 400;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
     word-spacing: -1px;
 }
 
@@ -325,7 +317,7 @@ body {
     letter-spacing: 1px;
     line-height: 36px;
     color: #d6ba8d;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
 
 }
 
@@ -336,21 +328,19 @@ body {
     font-size: 17px;
     letter-spacing: 4px;
     line-height: 64px;
-    color: #333333;
+    color: @mau_den;
     font-weight: 700;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
 }
-
-
 
 #bay {
     left: 582px;
     top: 158px;
     position: absolute;
     font-size: 98px;
-    color: #333333;
+    color: @mau_den;
     font-weight: 700;
-    font-family: "Cormorant Garamond";
+    font-family: @chu_mem;
 }
 
 #phantram {
@@ -358,10 +348,10 @@ body {
     top: 157px;
     position: absolute;
     font-size: 100px;
-    color: #333333;
+    color: @mau_den;
     font-weight: 700;
     letter-spacing: -3px;
-    font-family: "Cormorant Garamond";
+    font-family: @chu_mem;
 
 }
 
@@ -373,7 +363,7 @@ body {
     line-height: 64px;
     color: #696969;
     font-weight: 500;
-    font-family: "Cormorant Garamond";
+    font-family: @chu_mem;
 
 }
 
@@ -385,7 +375,7 @@ body {
     letter-spacing: 3.9px;
     color: #696969;
     font-weight: 600;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
 }
 
 #nhan {
@@ -395,7 +385,7 @@ body {
     font-size: 69px;
     color: #d6ba8d;
     font-weight: 700;
-    font-family: "Cormorant Garamond";
+    font-family: @chu_mem;
     left: 48px;
     top: 373px;
 }
@@ -405,9 +395,9 @@ body {
     font-size: 15px;
     letter-spacing: 2.15px;
     line-height: 24px;
-    color: #333333;
+    color: @mau_den;
     font-weight: 400;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
     left: 50px;
     top: 333px;
 }
@@ -416,9 +406,9 @@ body {
     font-size: 24px;
     letter-spacing: 1px;
     line-height: 36px;
-    color: #333333;
+    color: @mau_den;
     font-weight: 400;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
     position: absolute;
 
 }
@@ -429,10 +419,10 @@ body {
     letter-spacing: 0.5px;
     font-size: 47px;
     line-height: 56px;
-    color: #333333;
+    color: @mau_den;
     font-weight: 6500;
     font-weight: 700;
-    font-family: "Cormorant Garamond";
+    font-family: @chu_mem;
     top: 137px;
     left: 53px;
 }
@@ -446,16 +436,16 @@ body {
     letter-spacing: 1.1px;
     line-height: 24px;
     color: #696969;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
 }
 
 .feature {
     font-size: 55px;
     line-height: 28px;
     letter-spacing: 0.3px;
-    color: #333333;
+    color: @mau_den;
     font-weight: 700;
-    font-family: "Cormorant Garamond";
+    font-family: @chu_mem;
 }
 
 .view {
@@ -464,9 +454,15 @@ body {
     font-size: 14px;
     letter-spacing: 2.1px;
     line-height: 31px;
-    color: #333333;
+    color: @mau_den;
     font-weight: bold;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
+    a {
+        color: @mau_den;
+        &:hover {
+            color: #92c5d9;
+        }
+    }
 }
 
 .icon3 {
@@ -490,18 +486,16 @@ body {
 .tensp {
     font-size: 14px;
     letter-spacing: 0.7px;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
     text-align: center;
     margin-top: 14px;
     margin-left: 1px;
-}
-
-.tensp a {
-    color: #333333;
-}
-
-.tensp a:hover {
-    color: #92c5d9;
+    a {
+        color: @mau_den;
+        &:hover {
+            color: #92c5d9;
+        }
+    }
 }
 
 .giatri {
@@ -509,7 +503,7 @@ body {
     letter-spacing: 1.9px;
     line-height: 28px;
     color: #d6ba8d;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
     text-align: center;
     margin-top: 3px;
     padding-left: 5px;
@@ -524,6 +518,15 @@ body {
     justify-content: space-between;
 }
 
+.nut_an {
+    opacity: 0;
+    color: #cccccc;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: @mau_den;
+}
+
 .add {
     opacity: 0;
     padding-top: 2px;
@@ -535,73 +538,48 @@ body {
     top: 280px;
     border: none;
     font-size: 15px;
-    color: #ffffff;
+    color: @mau_trang;
     letter-spacing: 0.5px;
     font-weight: 700;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
 }
 
 .tim {
-    opacity: 0;
+    .nut_an();
     padding-top: 7px;
     left: 148px;
     top: 280px;
-    position: absolute;
-    font-size: 18px;
-    color: #cccccc;
-    width: 40px;
-    height: 40px;
-    background-color: #333333;
+
 }
 
 .bieudo {
-    opacity: 0;
+    .nut_an();
     padding-top: 8px;
     left: 188px;
     top: 280px;
-    position: absolute;
-    color: #cccccc;
-    width: 40px;
-    height: 40px;
-    background-color: #333333;
 }
 
 .timkiem {
-    opacity: 0;
+    .nut_an();
     padding-top: 4px;
     padding-left: 8px;
     top: 280px;
     left: 228px;
-    position: absolute;
-    color: #cccccc;
-    width: 40px;
-    height: 40px;
-    background-color: #333333;
 }
 
+#product2 {
+    margin-top: 26px;
+}
 
 .product div:hover {
     position: relative;
-}
-
-.product div:hover .tim {
-    opacity: 1;
-    transition:ease-in-out 0.5s;
-}
-
-.product div:hover .timkiem {
-    opacity: 1;
-    transition:ease-in-out 0.5s;
-}
-
-.product div:hover .bieudo {
-    opacity: 1;
-    transition:ease-in-out 0.5s;
-}
-
-.product div:hover .add {
-    opacity: 1;
-    transition:ease-in-out 0.5s;
+    .tim,
+    .timkiem,
+    .bieudo,
+    .add {
+        opacity: 1;
+        transition:ease-in-out 0.5s;
+    }
 }
 
 .blog {
@@ -615,8 +593,8 @@ body {
 
 .update {
     font-size: 54px;
-    color: #333333;
-    font-family: "Cormorant Garamond";
+    color: @mau_den;
+    font-family: @chu_mem;
     text-align: center;
     transform: translate(1px, -38px);
     letter-spacing: 1px;
@@ -633,12 +611,21 @@ body {
 }
 
 .blog1 {
-    background-color: #fff;
+    background-color: @mau_trang;
     height: 462px;
-}
-  
-.blog1 a p:hover {
-    color: #92c5d9;
+    a p:hover {
+        color: #92c5d9;
+    }
+    
+    img {
+        overflow: hidden;
+        &:hover{
+            transform: scale(1.1);
+            transition: all ease-in-out 0.5s;
+        }
+    }
+    
+    
 }
 
 .time {
@@ -648,7 +635,7 @@ body {
     letter-spacing: 1.2px;
     line-height: 67px;
     color: #cccccc;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
 }
 
 .title {
@@ -659,9 +646,9 @@ body {
     font-size: 23.5px;
     letter-spacing: 1.35px;
     line-height: 32px;
-    color: #333333;
+    color:@mau_den;
     font-weight: 700;
-    font-family: "Cormorant Garamond";
+    font-family: @chu_mem;
 }
 
 .like {
@@ -669,14 +656,13 @@ body {
     line-height: 32px;
     color: #696969;
     font-weight: 400;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
 }
 
 .eye {
     margin-left: 32px;
     font-size: 16px;
     color: #92c5d9;
-    font-family: "Ionicons";
     position: relative;
     left: -6px;
     top: 4px;
@@ -687,7 +673,7 @@ body {
     font-size: 14px;
     color: #696969;
     font-weight: 400;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
 }
 
 .share {
@@ -698,7 +684,6 @@ body {
     font-size: 16px;
     line-height: 32px;
     color: #92c5d9;
-    font-family: "Ionicons";
 }
 
 .line {
@@ -715,18 +700,6 @@ body {
     position: absolute;
 }
 
-
-.buttonblog p {
-    
-    font-size: 24px;
-    line-height: 28px;
-    color: #333333;
-    font-weight: 400;
-    font-family: "Cormorant Garamond";
-    margin-left: -5px;
-    transform: translate(0px, -16px );
-}
-
 .buttonblog {
     border: none;
     margin-top: 80px;
@@ -734,7 +707,17 @@ body {
     filter: drop-shadow(0 0 15px rgba(0,0,0,0.07));
     width: 143px;
     height: 16px;
-    background-color: #ffffff;
+    background-color: @mau_trang;
+    p {
+    
+        font-size: 24px;
+        line-height: 28px;
+        color:@mau_den;
+        font-weight: 400;
+        font-family: @chu_mem;
+        margin-left: -5px;
+        transform: translate(0px, -16px );
+    }
 }
 
 .line2 { 
@@ -756,44 +739,39 @@ body {
 
 }
 
-.brand1 {
+.brandx(@left: 0px, @top: 0px) {
     position: absolute;
-    left: 7px;
-    top: 65px;
+    left: @left;
+    top: @top;
+}
+
+.brand1 {
+    .brandx(7px, 65px)
 }
 
 .brand2 {
-    position: absolute;
-    left: 203px;
-    top: 76px;
+    .brandx(203px, 76px)
 }
 
 .brand3 {
-    position: absolute;
-    left: 412px;
-    top: 73px;
+    .brandx(412px, 73px)
 }
 
 .brand4 {
-    position: absolute;
-    left: 611px;
-    top: 59px;
+    .brandx(611px, 59px)
 }
 
 .brand5 {
-    position: absolute;
-    left: 814px;
-    top: 63px;
+    .brandx(814px, 63px)
 }
+
 .brand6 {
-    position: absolute;
-    left: 989px;
-    top: 87px;
+    .brandx(989px, 87px)
 }
 
 footer {
     width: 1920px;
-    background-color: #333333;
+    background-color: @mau_den;
     margin: 0 auto;
 }
 
@@ -806,42 +784,38 @@ footer {
     height: 250px;
 }
 
-.subcribe button span {
-    font-size: 14px;
-    letter-spacing: 2.4px;
-    margin-left: -1px;
-    line-height: 25px;
-    color: #ababab;
-    font-weight: 700;
-    font-family: "Fira Sans";
-}
-
 .subcribe {
     margin-top: -1px;
     margin-right: 1px;
-}
-
-.subcribe button ion-icon {
-    font-size: 20px;
-    color: #d6ba8d;
-    transform: translate(5px, 3px);
-}
-
-.subcribe button {
-    width: 156px;
-    height: 39px;
-    background-color: #333333;
-    border: 2px solid #696969;
-    margin-top: 141px;
-}
-
+    button {
+        width: 156px;
+        height: 39px;
+        background-color: @mau_den;
+        border: 2px solid #696969;
+        margin-top: 141px;
+        ion-icon {
+            font-size: 20px;
+            color: #d6ba8d;
+            transform: translate(5px, 3px);
+        } 
+        span {
+            font-size: 14px;
+            letter-spacing: 2.4px;
+            margin-left: -1px;
+            line-height: 25px;
+            color: #ababab;
+            font-weight: 700;
+            font-family: @chu_cung;
+        }
+    }
+} 
 
 .bar {
     font-size: 14px;
     letter-spacing: 1.55px;
     line-height: 24px;
     font-weight: 700;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
     max-width: 529px;
     width: 100%;
     margin: 0 auto;
@@ -849,14 +823,12 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 149px;
-}
-
-.bar a {
-    color: #ababab;
-}
-
-.bar a:hover {
-    color: #d6ba8d;
+    a {
+        color: #ababab;
+        &:hover {
+            color: #d6ba8d;
+        }
+    }
 }
 
 .linelast {
@@ -882,7 +854,7 @@ footer {
     line-height: 28px;
     color: #696969;
     font-weight: 400;
-    font-family: "Fira Sans";
+    font-family: @chu_cung;
     word-spacing: 0px;
 }
 
@@ -892,14 +864,13 @@ footer {
     height: 45px;
     border-radius: 24px;
     filter: drop-shadow(-2.25px 9.744px 12px rgba(51,51,51,0.2));
-    background-color: #333333;
+    background-color: @mau_den;
     border: 2px solid #696969;
     color: #ababab;
-}
-
-.social-network:hover {
-    background-color: #d6ba8d;
-    color: #333333;
+    &:hover {
+        background-color: #d6ba8d;
+        color: @mau_den;
+    }
 }
 
 .contact {
